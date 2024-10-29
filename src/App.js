@@ -11,6 +11,8 @@ import About from './pages/about/about';
 import News from './pages/news/news';
 import Gallery from './pages/gallery/gallery';
 
+import HomePage from './pages/home/home';
+
 
 function App() {
   return (
@@ -18,7 +20,7 @@ function App() {
         <Router>
             <Header/>
             <Routes>
-                <Route path="/" element={<Home/>}></Route>
+                <Route path="/" element={<HomePage/>}></Route>
                 <Route path="/about" element={<About/>}></Route>
                 <Route path="/investments" element={<Investments/>}></Route>
                 <Route path="/services" element={<Services/>}></Route>
