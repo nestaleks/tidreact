@@ -1,0 +1,118 @@
+.header{
+    width: 100%;
+    background-color: rgba(35, 115, 133, 0.7);
+    z-index: 3;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: #fff;
+
+}
+.menu_left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-logo {
+    height: 50px;
+}
+
+.menu-toggle {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+}
+
+.burger-icon{
+    width: 40px;
+    height: 40px;
+}
+.menu-items {
+    display: flex;
+    gap: 1rem;
+}
+.menu__link {
+    position: relative;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #ffffff;
+}
+.menu__link::before {
+    content: '';
+    position: absolute;
+    left: 0; bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+}
+.menu__link:hover:before {
+    width: 100%;
+}
+.menu__link::before {
+    transition: width 0.35s;
+}
+
+
+
+
+/* Адаптация для мобильных устройств */
+@media (max-width: 1120px) {
+    .header{
+        background-color: #659da9;
+    }
+    .menu{
+        height: 70px;
+        padding: 0;
+        /*position: relative;*/
+        flex-direction: column;
+        z-index: 3;
+    }
+    .menu_left{
+        width: 100%;
+        height: 70px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #659da9;
+        z-index: 3;
+    }
+    .menu_right{
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin-top: 70px;
+        transform: translateY(-140%);
+        transition: transform .8s ease-in;
+        background-color: #659da9;
+        z-index: 1;
+        padding: 0;
+    }
+    .menu_right.open {
+        display: block;
+        transform: translateY(0);
+        width: 100%;
+    }
+    .menu-items {
+        width: 100%;
+        flex-direction: column;
+        padding: 30px;
+        gap: 30px;
+    }
+    .menu-items.open li {
+        font-size: 20px;
+    }
+    .menu-toggle {
+        display: flex;
+    }
+}
