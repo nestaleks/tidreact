@@ -19,8 +19,8 @@ function Home() {
     const location = useLocation();
 
     useEffect(() => {
-        if (location.hash === '#projects-block') {
-            const element = document.getElementById('projects-block');
+        if (location.hash === '#projects') {
+            const element = document.getElementById('projects');
             if (element) {
                 element.scrollIntoView({ behavior: 'smooth', block: 'start' });
             }
@@ -215,7 +215,7 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                <section className="projects section__padding" id="projects-block">
+                <section className="projects section__padding" id="projects">
                     <div className="container">
                         <p className="projects__pretitle pretitle">Our Projects</p>
                         <h3 className="projects__title section__title">New Construction and Property Maintenance</h3>

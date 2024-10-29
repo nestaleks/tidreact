@@ -28,7 +28,7 @@ function Header() {
                 <ul className="menu-items">
                     <NavLink className="menu__link" onClick={toggleMenu} to="/">Home</NavLink>
                     <NavLink className="menu__link" onClick={toggleMenu} to="/about">About Us</NavLink>
-                    <NavLink className="menu__link" onClick={toggleMenu} to="/#projects-block">Projects</NavLink>
+                    <NavLink className="menu__link" onClick={toggleMenu} to="/#projects">Projects</NavLink>
                     <NavLink className="menu__link" onClick={toggleMenu} to="/investments">Investments</NavLink>
                     <NavLink className="menu__link" onClick={toggleMenu} to="/services">Services</NavLink>
                     <NavLink className="menu__link" onClick={toggleMenu} to="/contacts">Contacts</NavLink>

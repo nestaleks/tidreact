@@ -1,4 +1,4 @@
-import {HashRouter as Router, Routes, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
