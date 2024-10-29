@@ -1,8 +1,10 @@
 import './about.css';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 import arrowImg from './img/arrow-right.svg';
+import Gallery from "../gallery/gallery";
 
 function About() {
     return (
@@ -59,10 +61,10 @@ function About() {
                             <p className="gallery__item-title">Process planning, building or renovation old house</p>
                         </a>
                     </div>
-                    <a className="gallery__link" href="./gallery.html">
+                    <Link className="gallery__link" to="/gallery">
                         <p className="gallery__link-text">See all</p>
                         <img className="gallery__link-img" src={arrowImg} alt=""/>
-                    </a>
+                    </Link>
                 </div>
             </section>
             <section className="news section__padding">
@@ -91,10 +93,10 @@ function About() {
                             <p className="news__item-date">April 1, 2024</p>
                         </a>
                     </div>
-                    <a className="news__link" href="./news.html">
+                    <Link className="news__link" to="/news">
                         <p className="news__link-text">Read all</p>
                         <img className="news__link-img" src={arrowImg} alt=""/>
-                    </a>
+                    </Link>
                 </div>
             </section>
         </div>
