@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tidreact/static/css/main.6be72abd.css",
-    "main.js": "/tidreact/static/js/main.e5636e89.js",
+    "main.js": "/tidreact/static/js/main.a58a42cc.js",
     "static/media/direction-5.jpg": "/tidreact/static/media/direction-5.b0c6f685b360f8ec6f9c.jpg",
     "static/media/investments-3.jpg": "/tidreact/static/media/investments-3.26f358f18bb6419a647a.jpg",
     "static/media/top__img.jpg": "/tidreact/static/media/top__img.b61343869a8c0ddc46c8.jpg",
@@ -45,10 +45,10 @@
     "static/media/arrow-right.svg": "/tidreact/static/media/arrow-right.8a01fd88d7f5a15f30d3b138fbe7ef58.svg",
     "static/media/burger-menu.svg": "/tidreact/static/media/burger-menu.f13a06e795a5c5e4312b1c9a29a4db1c.svg",
     "main.6be72abd.css.map": "/tidreact/static/css/main.6be72abd.css.map",
-    "main.e5636e89.js.map": "/tidreact/static/js/main.e5636e89.js.map"
+    "main.a58a42cc.js.map": "/tidreact/static/js/main.a58a42cc.js.map"
   },
   "entrypoints": [
     "static/css/main.6be72abd.css",
-    "static/js/main.e5636e89.js"
+    "static/js/main.a58a42cc.js"
   ]
 }
