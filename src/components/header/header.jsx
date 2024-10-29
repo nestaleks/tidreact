@@ -7,16 +7,15 @@ import './header.css'; // импортируем стили
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
-    const toggleMenu = () => {
-        setIsOpen(!isOpen);
-    };
+    // закрывание мобильного меню при клике на пункт меню
+    const toggleMenu = () => setIsOpen((isOpen) => !isOpen);
 
     return (
         <header className="header">
         <div className="container">
         <nav className="menu">
             <div className="menu_left">
-                <NavLink to="/" href="">
+                <NavLink to="/" onClick={toggleMenu} href="">
                     <img className="menu-logo" src={logoImg} alt=""/>
                 </NavLink>
 
@@ -27,12 +26,12 @@ function Header() {
             </div>
             <div className={`menu_right ${isOpen ? 'open' : ''}`}>
                 <ul className="menu-items">
-                    <NavLink className="menu__link" to="/">Home</NavLink>
-                    <NavLink className="menu__link" to="/about">About Us</NavLink>
-                    <NavLink className="menu__link" to="/#projects-block">Projects</NavLink>
-                    <NavLink className="menu__link" to="/investments">Investments</NavLink>
-                    <NavLink className="menu__link" to="/services">Services</NavLink>
-                    <NavLink className="menu__link" to="/contacts">Contacts</NavLink>
+                    <NavLink className="menu__link" onClick={toggleMenu} to="/">Home</NavLink>
+                    <NavLink className="menu__link" onClick={toggleMenu} to="/about">About Us</NavLink>
+                    <NavLink className="menu__link" onClick={toggleMenu} to="/#projects-block">Projects</NavLink>
+                    <NavLink className="menu__link" onClick={toggleMenu} to="/investments">Investments</NavLink>
+                    <NavLink className="menu__link" onClick={toggleMenu} to="/services">Services</NavLink>
+                    <NavLink className="menu__link" onClick={toggleMenu} to="/contacts">Contacts</NavLink>
                 </ul>
             </div>
         </nav>
