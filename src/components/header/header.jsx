@@ -29,7 +29,7 @@ function Header() {
                 <ul className="menu-items">
                     <NavLink className="menu__link" to="/">Home</NavLink>
                     <NavLink className="menu__link" to="/about">About Us</NavLink>
-                    <NavLink className="menu__link" to="/home#projects">Projects</NavLink>
+                    <NavLink className="menu__link" to="/#projects-block">Projects</NavLink>
                     <NavLink className="menu__link" to="/investments">Investments</NavLink>
                     <NavLink className="menu__link" to="/services">Services</NavLink>
                     <NavLink className="menu__link" to="/contacts">Contacts</NavLink>

@@ -1,7 +1,8 @@
 import './home.css';
 import HomeTop from "../../components/hometop/hometop";
 
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 import directionImg1 from "./img/direction-1.jpg";
@@ -15,6 +16,17 @@ import partnerImg2 from "./img/partners_rbk.png";
 
 
 function Home() {
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.hash === '#projects-block') {
+            const element = document.getElementById('projects-block');
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+    }, [location]);
+
     return (
         <div>
             <Helmet>
@@ -203,7 +215,7 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                <section className="projects section__padding" id="projects">
+                <section className="projects section__padding" id="projects-block">
                     <div className="container">
                         <p className="projects__pretitle pretitle">Our Projects</p>
                         <h3 className="projects__title section__title">New Construction and Property Maintenance</h3>
