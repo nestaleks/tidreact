@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tidreact/static/css/main.c3fa5401.css",
-    "main.js": "/tidreact/static/js/main.5aa987e0.js",
+    "main.css": "/tidreact/static/css/main.359aad7a.css",
+    "main.js": "/tidreact/static/js/main.c88d2dfa.js",
     "static/media/direction-5.jpg": "/tidreact/static/media/direction-5.b0c6f685b360f8ec6f9c.jpg",
     "static/media/investments-3.jpg": "/tidreact/static/media/investments-3.26f358f18bb6419a647a.jpg",
     "static/media/top__img.jpg": "/tidreact/static/media/top__img.b61343869a8c0ddc46c8.jpg",
@@ -40,15 +40,20 @@
     "static/media/land-purchase.svg": "/tidreact/static/media/land-purchase.8afe59213deadbadb9cdba99f71325f5.svg",
     "static/media/property-purchase.svg": "/tidreact/static/media/property-purchase.567e716475f67c3613f3b0ea1afb9202.svg",
     "static/media/consultation.svg": "/tidreact/static/media/consultation.5213727bc36bc4d15f21db8946698d6f.svg",
+    "static/media/phone.svg": "/tidreact/static/media/phone.7ea3257e56c20a6e722e777a8dac079c.svg",
     "static/media/property-sales.svg": "/tidreact/static/media/property-sales.ae1e9108a372fc795e348ef96dc2b351.svg",
+    "static/media/contacts-telephone.svg": "/tidreact/static/media/contacts-telephone.1716da36860fdb259d3b501e6f9c3b6d.svg",
+    "static/media/contacts-address.svg": "/tidreact/static/media/contacts-address.ae187781e590caf2ecd5ee313ff90e5d.svg",
     "index.html": "/tidreact/index.html",
+    "static/media/contacts-feedback.svg": "/tidreact/static/media/contacts-feedback.98fdcc8df5bd391333bdb3e3d5e573ca.svg",
     "static/media/arrow-right.svg": "/tidreact/static/media/arrow-right.8a01fd88d7f5a15f30d3b138fbe7ef58.svg",
+    "static/media/mail.svg": "/tidreact/static/media/mail.749e9969e992cb4d068b82ae18a5c63d.svg",
     "static/media/burger-menu.svg": "/tidreact/static/media/burger-menu.f13a06e795a5c5e4312b1c9a29a4db1c.svg",
-    "main.c3fa5401.css.map": "/tidreact/static/css/main.c3fa5401.css.map",
-    "main.5aa987e0.js.map": "/tidreact/static/js/main.5aa987e0.js.map"
+    "main.359aad7a.css.map": "/tidreact/static/css/main.359aad7a.css.map",
+    "main.c88d2dfa.js.map": "/tidreact/static/js/main.c88d2dfa.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3fa5401.css",
-    "static/js/main.5aa987e0.js"
+    "static/css/main.359aad7a.css",
+    "static/js/main.c88d2dfa.js"
   ]
 }
