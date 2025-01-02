@@ -2,6 +2,10 @@ import './contacts.css';
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
+import addressIcon from './img/contacts-address.svg';
+import feedbackIcon from './img/contacts-feedback.svg';
+import phoneIcon from './img/contacts-telephone.svg';
+
 function Contacts() {
     return (
         <div>
@@ -11,30 +15,39 @@ function Contacts() {
             <section className="contacts__name section__padding">
                 <div className="container">
                     <h2 className="contacts__name-title">Contact Us</h2>
-                    <div className="contacts__items">
-                        <div className="contacts__item">
-                            <p className="contacts__item-title">TID Group</p>
-                            <p className="contacts__item-text">Palma De Mallorca
-                                <br/>
-                                Spain
+                    <div class="contacts__items">
+                        <div class="contacts__item">
+                            <div class="contacts__item-img">
+                                <img src={addressIcon} alt="" />
+                            </div>
+                            <p class="contacts__item-title">
+                                ADDRESS
                             </p>
-                            <a className="contacts__item-phonenumber" href="tel:+*****************">Phone:+*****************</a>
-                            <a className="contacts__item-phonenumber" href="tel:+*****************">Fax: +*****************</a>
-                            <a className="contacts__item-email" href="mailto:office@tidgroup.es">office@tidgroup.es</a>
+                            <p class="contacts__item-text">Top Invest Development Group</p>
+                            <p class="contacts__item-text">Palma De Mallorca</p>
+                            <p class="contacts__item-text">Spain</p>
                         </div>
-                        <div className="contacts__item">
-                            <p className="contacts__item-title">Customer Support</p>
-                            <a className="contacts__item-email" href="mailto:info.mallorca@tidgroup.es">info.mallorca@tidgroup.es</a>
-                            <a className="contacts__item-phonenumber" href="tel:+*****************">Phone: +*****************</a>
-                            <a className="contacts__item-phonenumber" href="tel:+*****************">Fax: +*****************</a>
-                        </div>
-                        <div className="contacts__item">
-                            <p className="contacts__item-title">
-                                Wholesale Inquiries
+                        <div class="contacts__item">
+                            <div class="contacts__item-img">
+                                <img src={feedbackIcon} alt="" />
+                            </div>
+                            <p class="contacts__item-title">
+                                EMAIL
                             </p>
-                            <a className="contacts__item-email"
+                            <a class="contacts__item-email" href="mailto:office@tidgroup.es">office@tidgroup.es</a>
+                            <a class="contacts__item-email"
                                href="mailto:pmallorca@tidgroup.es">pmallorca@tidgroup.es</a>
-                            <a className="contacts__item-phonenumber" href="tel:+*****************">Phone: +*****************</a>
+                            <a class="contacts__item-email"
+                               href="mailto:info.mallorca@tidgroup.es">info.mallorca@tidgroup.es</a>
+                        </div>
+                        <div class="contacts__item">
+                            <div class="contacts__item-img">
+                            <img src={phoneIcon} alt="" />
+                            </div>
+                            <p class="contacts__item-title">
+                                Phone
+                            </p>
+                            <a class="contacts__item-phonenumber" href="tel:+34654661041">Phone: +34654661041</a>
                         </div>
                     </div>
                 </div>

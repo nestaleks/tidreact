@@ -2,12 +2,12 @@
     margin-top: auto;
     height: auto;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 10px;
     color: #000000;
     background-color: #f0f0f0;
 }
 .footer-content {
-    margin: 0 auto 25px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,31 +18,43 @@
 .footer-logo {
     height: 50px;
 }
-.footer-content p {
-    margin: 10px auto;
-    font-size: 16px;
-    line-height: 1.2;
-    color: #000000;
-}
 .footer-bottom {
     margin: 0 auto 30px;
     display: flex;
     flex-direction: column;
     width: 100%;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     gap: 15px;
     padding: 10px;
 }
 .footer__contacts-title{
-    /*margin-bottom: 10px;*/
+    font-size: 22px;
 }
-.footer__contacts-text{
-    /*margin-bottom: 10px;*/
+.footer-bottom__contacts{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.footer-bottom__contacts div{
+    display: flex;
+    justify-content: center;
+}
+.footer__nav-phone,
+.footer__nav-email{
+    display: flex;
+    margin-top: 5px;
+}
+.footer-bottom__contacts img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 
-@media (max-width: 500px) {
-    .footer-bottom p {
-        float: none;
+@media (max-width: 480px) {
+    .footer-bottom__contacts{
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
     }
 }
