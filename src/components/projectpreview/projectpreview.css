@@ -1,0 +1,80 @@
+.projects__item{
+    min-height: 100%;
+    padding: 20px;
+    color: #ffffff;
+    height: 350px;
+}
+.projects-1{
+    background-image: url(./img/solivar-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+.projects-2{
+    background-image: url(./img/boho-corner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+.projects__item-title{
+    font-size: 25px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ffffff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1),
+    2px 2px 1px rgba(255, 255, 255, 0.75);
+}
+.projects__item-subtitle{
+    margin-top: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1),
+    2px 2px 1px rgba(255, 255, 255, 0.75);
+}
+.projects__item-img{
+    width: 70px;
+    height: 70px;
+}
+.inprogress__text{
+    max-width: 574px;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+}
+.inprogress__item{
+    min-height: 100%;
+    padding: 20px;
+    color: #ffffff;
+    height: 350px;
+}
+.inprogress-1{
+    background-image: url(./img/foners-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+}
+.inprogress-2{
+    background-image: url(./img/marina-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+.inprogress-3{
+    background-image: url(./img/can-marques-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+.inprogress__item-title{
+    font-size: 25px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ffffff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1),
+    2px 2px 1px rgba(255, 255, 255, 0.75);
+}
+.inprogress__item-subtitle{
+    margin-top: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1),
+    2px 2px 1px rgba(255, 255, 255, 0.75);
+}
+
