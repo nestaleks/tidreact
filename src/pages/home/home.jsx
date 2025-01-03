@@ -10,7 +10,13 @@ import directionImg2 from "./img/direction-2.jpg";
 import directionImg3 from "./img/direction-3.jpg";
 import directionImg4 from "./img/direction-4.jpg";
 import directionImg5 from "./img/direction-5.jpg";
-import soldImg from "./img/sold.svg";
+import ProjectPreview1 from "../../components/projectpreview/projectpreview1";
+import ProjectPreview2 from "../../components/projectpreview/projectpreview2";
+import ProjectPreview3 from "../../components/projectpreview/projectpreview3";
+import ProjectPreview4 from "../../components/projectpreview/projectpreview4";
+import ProjectPreview5 from "../../components/projectpreview/projectpreview5";
+
+
 import partnerImg1 from "./img/partners-blanc-i-blanc.png";
 import partnerImg2 from "./img/partners_rbk.png";
 
@@ -223,16 +229,8 @@ function Home() {
                             highlighting the quality of our work and the meticulous attention to detail that defines our
                             approach to construction.</p>
                         <div className="projects__items">
-                            <a className="projects__item projects-1" href="./projects/solivar/solivar.html">
-                                <p className="projects__item-title">S’Olivar</p>
-                                <p className="projects__item-subtitle">Port de Soller</p>
-                                <img className="projects__item-img" src={soldImg} alt=""/>
-                            </a>
-                            <a className="projects__item projects-2" href="./projects/boho-corner/boho-corner.html">
-                                <p className="projects__item-title">Boho Corner</p>
-                                <p className="projects__item-subtitle">Palma, El Terreno</p>
-                                <img className="projects__item-img" src={soldImg} alt=""/>
-                            </a>
+                            <ProjectPreview1/>
+                            <ProjectPreview2/>
                         </div>
                     </div>
                 </section>
@@ -245,16 +243,9 @@ function Home() {
                             realized. Here, you can see how our ideas are transforming into modern, high-quality
                             construction projects.</p>
                         <div className="inprogress__items">
-                            <a className="inprogress__item inprogress-1" href="./projects/foners/foners.html">
-                                <p className="projects__item-title">Foners</p>
-                                <p className="projects__item-subtitle">Palma, Calle Foners</p>
-                            </a>
-                            <a className="inprogress__item inprogress-2" href="!/">
-                                <p className="inprogress__item-title">SOON</p>
-                            </a>
-                            <a className="inprogress__item inprogress-2" href="!/">
-                                <p className="inprogress__item-title">SOON</p>
-                            </a>
+                            <ProjectPreview3/>
+                            <ProjectPreview4/>
+                            <ProjectPreview5/>
                         </div>
                     </div>
                 </section>
